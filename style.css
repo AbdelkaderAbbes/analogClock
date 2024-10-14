@@ -32,7 +32,7 @@ body {
   position: absolute;
   background: red;
   left: calc(50% - 1px);
-  bottom: calc(50% - 1px);
+  bottom: calc(50%); /* remove 1px */
   transform-origin: bottom center;
   border-radius: 2px;
 }
@@ -43,7 +43,7 @@ body {
   position: absolute;
   background: black;
   left: calc(50% - 1px);
-  bottom: calc(50% - 1px);
+  bottom: calc(50%); /* remove 1px */
   border-radius: 2px;
   transform-origin: bottom center;
 }
@@ -54,7 +54,7 @@ body {
   position: absolute;
   background: #2196f3;
   left: calc(50% - 1.5px);
-  bottom: calc(50% - 1.5px);
+  bottom: calc(50%); /* remove 1.5px */
   transform-origin: bottom center;
   border-radius: 2px;
 }
